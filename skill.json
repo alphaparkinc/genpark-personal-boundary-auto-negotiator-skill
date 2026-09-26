@@ -1,0 +1,38 @@
+{
+  "name": "genpark-personal-boundary-auto-negotiator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Executive boundary defense and communication arbitrator deflecting non-urgent real-time interruptions to asynchronous channels.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "alphaparkinc",
+  "category": "personal-assistant",
+  "tags": [
+    "personal-agent",
+    "boundary-defense",
+    "async-communication",
+    "executive-assistant",
+    "interrupt-filter"
+  ],
+  "inputs": {
+    "sender_name": {
+      "type": "string",
+      "default": "Jordan Lee"
+    },
+    "sender_role": {
+      "type": "string",
+      "default": "Vendor Account Rep"
+    }
+  },
+  "outputs": {
+    "arbitration_id": {
+      "type": "string"
+    },
+    "arbitrated_verdict": {
+      "type": "string"
+    },
+    "synthesized_response": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
